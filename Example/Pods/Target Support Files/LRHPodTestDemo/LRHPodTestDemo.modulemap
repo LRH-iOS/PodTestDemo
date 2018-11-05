@@ -1,0 +1,6 @@
+framework module LRHPodTestDemo {
+  umbrella header "LRHPodTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

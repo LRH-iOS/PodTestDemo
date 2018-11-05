@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LRHPodTestDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LRHPodTestDemo.'
+  s.summary          = '用来测试库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/LRH-iOS/LRHPodTestDemo'
+  s.homepage         = 'https://github.com/LRH-iOS/PodTestDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LRH-iOS' => 'xiandan@2dfire.com' }
-  s.source           = { :git => 'https://github.com/LRH-iOS/LRHPodTestDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LRH-iOS/PodTestDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

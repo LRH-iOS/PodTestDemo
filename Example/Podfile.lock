@@ -1,0 +1,16 @@
+PODS:
+  - LRHPodTestDemo (0.1.0)
+
+DEPENDENCIES:
+  - LRHPodTestDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LRHPodTestDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRHPodTestDemo: 9a9798dd0aa25ecff9381b130028e42ea357a901
+
+PODFILE CHECKSUM: d333d2053e669da8ba1def67f3fe7dcc264488df
+
+COCOAPODS: 1.5.3
