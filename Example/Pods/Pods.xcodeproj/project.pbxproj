@@ -13,8 +13,11 @@
 		21742F94E86175C75834B914CADBB4FE /* LRHPodTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E254CE0F3E57577B3E48EC7F280BF3 /* LRHPodTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		307537271212912D6F4AFD5A29DF845F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		53163156C7C8A1C5DD325D5E5D9AC087 /* Pods-LRHPodTestDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8E5824544B6AB557108FED8D838C0 /* Pods-LRHPodTestDemo_Example-dummy.m */; };
-		69594EB90530A101F3F6C56C33BD3B86 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C576A0A54B2DAFA66B8BBE8A088CF244 /* ReplaceMe.m */; };
 		725C6CE00EDB42E9285685DECF6DF503 /* Pods-LRHPodTestDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B987CAD8A6A60C3E9F98152DBDBDBF86 /* Pods-LRHPodTestDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25020C52190337300A914E4 /* 框架.png in Resources */ = {isa = PBXBuildFile; fileRef = A25020C22190337300A914E4 /* 框架.png */; };
+		A25020C72190337300A914E4 /* 代码架构6原则.png in Resources */ = {isa = PBXBuildFile; fileRef = A25020C42190337300A914E4 /* 代码架构6原则.png */; };
+		A25020CA219037BB00A914E4 /* FirstViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A25020C8219037BA00A914E4 /* FirstViewController.h */; };
+		A25020CB219037BB00A914E4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A25020C9219037BB00A914E4 /* FirstViewController.m */; };
 		B51A3B3D88E9E77428141ADDC0B7276B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		FD87825F4689C59C5FDADE0E2BAF9102 /* Pods-LRHPodTestDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE85EACDA72A3AA132F05178B5F402 /* Pods-LRHPodTestDemo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -52,11 +55,14 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A701043BBD029B40059543081BB4CE4 /* Pods_LRHPodTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRHPodTestDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E546672A5793DB68C857275779F55B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25020C22190337300A914E4 /* 框架.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "框架.png"; sourceTree = "<group>"; };
+		A25020C42190337300A914E4 /* 代码架构6原则.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码架构6原则.png"; sourceTree = "<group>"; };
+		A25020C8219037BA00A914E4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A25020C9219037BB00A914E4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		A2AB19DDA3AE50EFE310A51756ACB08B /* LRHPodTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRHPodTestDemo.modulemap; sourceTree = "<group>"; };
 		A43195D3F731397F929F7BFFD21B3FA2 /* LRHPodTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LRHPodTestDemo.podspec; sourceTree = "<group>"; };
 		B3BE85EACDA72A3AA132F05178B5F402 /* Pods-LRHPodTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRHPodTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
 		B987CAD8A6A60C3E9F98152DBDBDBF86 /* Pods-LRHPodTestDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRHPodTestDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C576A0A54B2DAFA66B8BBE8A088CF244 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LRHPodTestDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C765B19AA98DA09095557219A651DB0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7F5F14EE73C3084CE05834FF9848455 /* Pods-LRHPodTestDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRHPodTestDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C88EAB43697C8626BAB5EEE56D69FE2F /* LRHPodTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRHPodTestDemo-dummy.m"; sourceTree = "<group>"; };
@@ -205,7 +211,10 @@
 		E5EBB31D16C1D94132E4690054791EE0 /* LRHPodTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C576A0A54B2DAFA66B8BBE8A088CF244 /* ReplaceMe.m */,
+				A25020C8219037BA00A914E4 /* FirstViewController.h */,
+				A25020C9219037BB00A914E4 /* FirstViewController.m */,
+				A25020C42190337300A914E4 /* 代码架构6原则.png */,
+				A25020C22190337300A914E4 /* 框架.png */,
 				9626230EA2A1D42B7CF2AED30467A6D1 /* Pod */,
 				EDCDFB0CD04CADCB1D6819FA9B93E834 /* Support Files */,
 			);
@@ -250,6 +259,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25020CA219037BB00A914E4 /* FirstViewController.h in Headers */,
 				21742F94E86175C75834B914CADBB4FE /* LRHPodTestDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +363,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25020C72190337300A914E4 /* 代码架构6原则.png in Resources */,
+				A25020C52190337300A914E4 /* 框架.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB77742E90ADD66DC3C9019950F7633 /* LRHPodTestDemo-dummy.m in Sources */,
-				69594EB90530A101F3F6C56C33BD3B86 /* ReplaceMe.m in Sources */,
+				A25020CB219037BB00A914E4 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

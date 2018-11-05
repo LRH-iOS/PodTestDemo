@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRHPodTestDemo'
-  s.version          = '0.1.0'
-  s.summary          = '用来测试库'
+  s.version          = '0.1.2'
+  s.summary          = 'LRH测试自己pod库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
