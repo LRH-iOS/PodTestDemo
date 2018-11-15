@@ -2,12 +2,11 @@ use_frameworks!
 
 target 'LRHPodTestDemo_Example' do
   pod 'LRHPodTestDemo', :path => '../'
-
-  pod 'YYText'
   
   target 'LRHPodTestDemo_Tests' do
     inherit! :search_paths
 
+    #pod 'YYText'
     
   end
 end

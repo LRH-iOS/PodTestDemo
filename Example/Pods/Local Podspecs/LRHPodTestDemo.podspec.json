@@ -1,6 +1,6 @@
 {
   "name": "LRHPodTestDemo",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "summary": "LRH测试自己pod库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LRH-iOS/PodTestDemo",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/LRH-iOS/PodTestDemo.git",
-    "tag": "0.2.3"
+    "tag": "0.2.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LRHPodTestDemo/Classes/**/*"
+  "source_files": "LRHPodTestDemo/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "YYText": [
+
+    ]
+  }
 }
