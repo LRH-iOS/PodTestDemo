@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRHPodTestDemo'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = 'LRH测试自己pod库'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   #  s.public_header_files = 'Pod/Classes/**/*.h'
   #s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'YYText'
+  s.dependency 'Masonry'
+  
 end

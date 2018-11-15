@@ -1,6 +1,6 @@
 {
   "name": "LRHPodTestDemo",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "summary": "LRH测试自己pod库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LRH-iOS/PodTestDemo",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/LRH-iOS/PodTestDemo.git",
-    "tag": "0.2.7"
+    "tag": "0.2.8"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "LRHPodTestDemo/Classes/**/*",
   "dependencies": {
-    "YYText": [
+    "Masonry": [
 
     ]
   }
