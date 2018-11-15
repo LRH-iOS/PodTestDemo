@@ -1,6 +1,6 @@
 {
   "name": "LRHPodTestDemo",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "LRH测试自己pod库",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LRH-iOS/PodTestDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LRH-iOS/PodTestDemo.git",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "8.0"
