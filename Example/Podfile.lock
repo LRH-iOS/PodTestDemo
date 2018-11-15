@@ -1,5 +1,5 @@
 PODS:
-  - LRHPodTestDemo (0.2.6):
+  - LRHPodTestDemo (0.2.7):
     - YYText
   - YYText (1.0.7)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRHPodTestDemo: 8cc2d51c5b19e795023edeb4f3379cfb461273f6
+  LRHPodTestDemo: 6b6e88db5756d18a25105bd7b100a65179bbd491
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
 PODFILE CHECKSUM: 53116fcd865b8d279a4300b35d4ebc9b47a1cda7
