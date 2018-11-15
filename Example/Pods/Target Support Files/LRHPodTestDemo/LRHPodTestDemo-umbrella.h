@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "FirstViewController.h"
+#import "MyTestViewController.h"
+#import "RealViewController.h"
 
 FOUNDATION_EXPORT double LRHPodTestDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char LRHPodTestDemoVersionString[];
