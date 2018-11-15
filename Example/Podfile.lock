@@ -1,16 +1,23 @@
 PODS:
-  - LRHPodTestDemo (0.2.1)
+  - LRHPodTestDemo (0.2.3)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - LRHPodTestDemo (from `../`)
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYText
 
 EXTERNAL SOURCES:
   LRHPodTestDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRHPodTestDemo: 35255f0299e7b05ac9936264cd01518afe64bf35
+  LRHPodTestDemo: f387beb737ce6bec88605f57bf0c22372fa60904
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: d333d2053e669da8ba1def67f3fe7dcc264488df
+PODFILE CHECKSUM: 445cf02938bd89f49823719f83ba1c4efacce257
 
 COCOAPODS: 1.5.3

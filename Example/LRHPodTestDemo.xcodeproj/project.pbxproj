@@ -353,12 +353,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LRHPodTestDemo_Example/Pods-LRHPodTestDemo_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LRHPodTestDemo/LRHPodTestDemo.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LRHPodTestDemo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
